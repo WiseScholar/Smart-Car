@@ -1,0 +1,167 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.push-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.push-button {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.push-button:active {
+    background-color: #c0392b;
+}
+
+.gear-shift-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gear {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gear-btn {
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 60px;
+}
+
+.gear-btn:active {
+    background-color: #2c3e50;
+}
+
+.gear-speed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.arrow-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.control-btn img {
+    width: 150px;
+}
+
+.pedals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedal-btn {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.pedal-btn:active {
+    background-color: #c0392b;
+}
+
+.status-display {
+    background-color: #34495e;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.status-display h2 {
+    margin-bottom: 10px;
+}
+
+.status-display p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+#engine-status {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.engine-on {
+    color: green;
+}
+
+.engine-off {
+    color: red;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Car Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <div class="push-button-container">
+                <button id="push-button" class="push-button">START</button>
+            </div>
+            <div class="gear-shift-container">
+                <div class="gear">
+                    <button id="P" class="gear-btn">P</button>
+                    <button id="R" class="gear-btn">R</button>
+                    <button id="N" class="gear-btn">N</button>
+                    <button id="D" class="gear-btn">D</button>
+                    <div class="gear-speed">
+                        <button id="1" class="gear-btn">1</button>
+                        <button id="2" class="gear-btn">2</button>
+                        <button id="3" class="gear-btn">3</button>
+                        <button id="4" class="gear-btn">4</button>
+                        <button id="5" class="gear-btn">5</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="status-display">
+            <h2>CHEVROLET CRUZE DISPLAY</h2>
+            <p>Current Gear: <span id="current-gear">P</span></p>
+            <p>Current Speed: <span id="current-speed">0</span></p>
+            <!-- New Engine Status Section -->
+            <p id="engine-status">Engine Status: OFF</p>
+        </div>
+        <div class="control-section">
+            <div class="arrow-buttons">
+                <button id="left" class="control-btn"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Red_Arrow_Left.svg" alt="Left"></button>
+                <button id="right" class="control-btn"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Red_Arrow_Right.svg" alt="Right"></button>
+            </div>
+            <div class="pedals">
+                <button id="accelerate" class="pedal-btn">Accelerate</button>
+                <button id="brake" class="pedal-btn">Brake</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
